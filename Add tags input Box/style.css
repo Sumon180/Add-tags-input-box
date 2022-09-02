@@ -1,0 +1,96 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #5372f0;
+}
+
+.wrapper{
+    background: #fff;
+    width: 490px;
+    border-radius: 10px;
+    padding: 18px 25px 20px;
+}
+
+.wrapper :where(.title, li, li i, details){
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .title i{
+    max-width: 21px;
+
+}
+
+.wrapper .title h2{
+    font-size: 21px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.wrapper .content{
+    margin: 10px;
+}
+.wrapper .content p{
+    font-size: 15px;
+}
+.wrapper .content ul{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px;
+    margin: 12px 0;
+    padding: 7px;   
+}
+.wrapper .content ul li{
+    list-style: none;
+    background: #f2f2f2;
+    padding: 5px 8px 5px 10px;
+    margin: 4px 3px;
+    border-radius: 5px;
+    border: 1px solid #e3d1e1;
+}
+.wrapper .content ul li i{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    color: #808080;
+    background: #dfdfdf;
+    font-size: 12px;
+    margin-left: 8px;
+    border-radius: 50%;
+    display: flex;          
+    align-items: center;
+    justify-content: center;
+}
+.wrapper .content ul input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+.wrapper .details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper .details button{
+    border: none;
+    outline: none;
+    background: #5372f0;
+    color: #fff;
+    padding: 9px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
